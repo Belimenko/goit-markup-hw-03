@@ -67,7 +67,6 @@ text-decoration: none;
 display: flex;
 justify content: center;
 flex-wrap: wrap;
-gap: 30px;
 }
 img {
     display: block;
@@ -85,7 +84,7 @@ body {
 /*navigation*/
 
 .menu-item:not(:last-child) {
-margin-right: 51px;
+margin-right: 55px;
 }
 
 .web {
@@ -141,7 +140,9 @@ color: var(--primary-text-color);
 color: var(--gray-text-color)
 }
 .e-mail {
-color: var(--gray-text-color)
+color: var(--gray-text-color);
+margin-left: auto;
+margin-right: 48px;
 }
 
 /* hero */
@@ -210,7 +211,7 @@ margin-right: auto;
 }
 
 .our-features {
-padding-top: 94px;
+padding-bottom: 0px;
 }
 
 .feature {
@@ -222,6 +223,16 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--primary-text-color);
 }
+
+.list-item-feature {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
 .features-text {
 font-weight: 400;
 font-size: 14px;
@@ -230,9 +241,7 @@ color: var(--gray-text-color);
 letter-spacing: 0.03em;
 }
 /* services */
-.boxes {
-padding-bottom: 94px;
-}
+
 .titlt {
 margin-bottom: 50px;
 font-weight: 700;
@@ -242,6 +251,15 @@ text-align : center;
 letter-spacing: 0.03em;
 color : var(--primary-text-color);
 }
+.list-item-services {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
     /* /services*/
 
 /* наша команда */
@@ -251,15 +269,18 @@ padding-left: 0px;
 padding-right: 0px;
 background-color: var(--portfolio-background-color);
 }
+
+.list-item-employees {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
 .cards {
 padding-top: 30px;
 padding-bottom: 30px;
-border-top: 14px;
-border-right: 14px;
-border=bottom: 0;
-border-left:14px;
-
-
 }
 .name-employees {
 margin-bottom: 10px;
@@ -284,23 +305,37 @@ color : var(--gray-text-color);
 padding-top: 94px;
 padding-bottom: 94px;
  }
+
+.list-item-portfolio {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
  .button-position {
 display: flex
-background-color: aqua;
+background-color: F5F4FA;
+padding; 24px 2px;
 justify-content: center;
 margin-bottom: 50px;
  }
  
 .title {
 font-weight: 400;
+width: 322px;
 font-size: 16px;
 line-height: 1.87;
 text-align: center;
 letter-spacing: 0.03em;
+margin-bottom: 8px;
 color: var(--gray-text-color);
 }
 .projects {
 font-weight: 700;
+width: 322px;
 font-size: 18px;
 line-height: 2.0;
 letter-spacing: 0.06em;
@@ -324,12 +359,19 @@ background-color: var(--accent-color);
 }
 .portfolio-cards {
 padding-top: 20px;
-padding-right: 24px;
 padding-bottom: 20px;
-padding-left: 24px;
-border-bottom-right-left-radius: 1px;S
+border: 1px solid;
 border-color: #EEEEEE;
 }
+.cards-poster {
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 24px;
+padding-right: 24px;
+border-bottom-right-left: 1px solid;
+border-color: #EEEEEE;
+}
+
  /* footer */
 .footer-block {
 display: flex;
@@ -339,15 +381,16 @@ padding-bottom: 60px;
 background-color: var(--primery-background-color);
  }
  .list-item-footer{
-    list-style: none;
-        text-decoration: none;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        gap: 9px;
+list-style: none;
+text-decoration: none;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+margin-bottom: 9px;
  }
  .logo-footer {
-margin-bottom: 20pt;
+display: flex;
+margin-bottom: 20px;
 font-family: var(--secondary-font);
 font-weight: 700;
 font-size: 26px;
@@ -362,7 +405,7 @@ color: var(--accent-color);
 color: var(--secondary-text-color);
  }
  .address-footer {
-margin-bottom: 9pt;
+margin-bottom: 9px;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -371,7 +414,7 @@ letter-spacing: 0.03em;
 color: var(--secondary-text-color);
  }
 .email-footer {
-margin-bottom: 9pt;
+margin-bottom: 9px;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -381,7 +424,7 @@ color: var(--email-phone-footer-color);
 }
 
  .fhone-number-footer {
-margin-bottom: 0pt;
+margin-bottom: 0px;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
