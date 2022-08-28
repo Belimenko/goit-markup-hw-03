@@ -141,8 +141,6 @@ color: var(--gray-text-color)
 }
 .e-mail {
 color: var(--gray-text-color);
-margin-left: auto;
-margin-right: 48px;
 }
 
 /* hero */
@@ -178,7 +176,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 .modal-btn {
 display: block;
-padding: 10px;
+padding-left: 32px;
+padding-right: 32px;
 border-radius: 4px;
 align-items: center;
 text-align: center;
@@ -242,7 +241,7 @@ letter-spacing: 0.03em;
 }
 /* services */
 
-.titlt {
+.title-services {
 margin-bottom: 50px;
 font-weight: 700;
 font-size : 36px;
@@ -328,26 +327,27 @@ font-weight: 400;
 width: 322px;
 font-size: 16px;
 line-height: 1.87;
-text-align: center;
+text-align: left;
 letter-spacing: 0.03em;
-margin-bottom: 8px;
+padding-left: 24px;
 color: var(--gray-text-color);
 }
 .projects {
 font-weight: 700;
-width: 322px;
 font-size: 18px;
 line-height: 2.0;
-letter-spacing: 0.06em;
-text-align: center;
+text-align: left;
+padding-left: 24px;
+margin-bottom: 4px;
 color: var(--primary-text-color);
 }
 .portfolio-button {
 font-weight: 500;
 font-size : 16px;
 line-height : 1.62;
-width: 112px;
 letter-spacing: 0.03em;
+padding: 6px 22px;
+border-radius: 4px;
 border: none;
 color:var(--primary-text-color);
 background-color : var(--portfolio-btn);
@@ -364,10 +364,7 @@ border: 1px solid;
 border-color: #EEEEEE;
 }
 .cards-poster {
-padding-top: 20px;
-padding-bottom: 20px;
-padding-left: 24px;
-padding-right: 24px;
+padding: 20px 24px;
 border-bottom-right-left: 1px solid;
 border-color: #EEEEEE;
 }
@@ -386,7 +383,7 @@ text-decoration: none;
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
-margin-bottom: 9px;
+gap: 9px;
  }
  .logo-footer {
 display: flex;
